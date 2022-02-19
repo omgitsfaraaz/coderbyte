@@ -13,3 +13,5 @@ def removeKFromList(l, k):
 		else:
 			prev = current
 			current = current.next
+
+# 25/10/20

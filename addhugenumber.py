@@ -19,6 +19,7 @@ def addTwoHugeNumbers(a, b):
 
 	sm = str(a_num + b_num)
 	ret_list = []
+	sm = sm[-1::-1]
 
 	for i in range(0, len(sm), 4):
 		num = sm[i:i+4]

@@ -13,3 +13,5 @@ def sudoku2(grid):
                 col.add(c_key)
                 block.add(b_key)
     return True
+
+    # 24/10/20
